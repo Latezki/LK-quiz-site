@@ -1,0 +1,97 @@
+body {
+    overflow: hidden;
+}
+
+p {
+    font-size: 2.5em;
+}
+
+/* Containers */
+
+.quiz-container {
+    padding: 6%;
+    background-color: #add8e6;
+}
+
+.correct {
+    background-color: #90ee90;
+}
+
+.incorrect {
+    background-color: #ff6961;
+}
+
+.quiz-box {
+    border: 0.3rem solid;
+    display: inline-block;
+    position: relative;
+    height: 725px;
+    width: 100%;
+    border-radius: 30px;
+    background-color: #f9fafc;
+}
+
+/* Top Bar Section */ 
+
+.title-bar {
+    border-bottom: 0.3rem solid;
+    padding: 20px;
+}
+
+/* Question Section */
+
+.question-box {
+    padding: 20px;
+}
+
+/* Answer Section */
+
+.answer-box {
+    padding: 20px 20px 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 0.3rem solid;
+}
+
+/* Button section */
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+    margin: auto 0;
+    text-align: center;
+}
+
+.btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#a {
+    background-color: #00b8ff;
+    margin-bottom: 10px;
+}
+
+#b {
+    background-color: #c04df9;
+    margin-bottom: 10px;
+}
+
+#c {
+    background-color: #ffc300;
+    margin-bottom: 10px;
+}
+
+#d {
+    background-color: #fa3c4c;
+    margin-bottom: 10px;
+}
+
+.control-button {
+    background-color: #ff8000;
+    margin: 40px 0 10px;
+    width: 100%;
+    text-align: center;
+}
