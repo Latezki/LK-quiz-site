@@ -11,7 +11,7 @@ const nextButtonDiv = $(".next-div");
 let shuffleQuestions, currentQuestionIndex;
 let currentQuestionNumber = 1;
 
-// Hides the answer buttons and next button div on document load
+// Hides the answer buttons and next button when site is loaded
 $(document).ready(function() {
     answerButtonGrid.hide();
     nextButtonDiv.hide();

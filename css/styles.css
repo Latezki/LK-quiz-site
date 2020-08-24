@@ -11,6 +11,7 @@ p {
 .quiz-container {
     padding: 6%;
     background-color: #add8e6;
+    height: 100vh;
 }
 
 .correct {
@@ -25,7 +26,7 @@ p {
     border: 0.3rem solid;
     display: inline-block;
     position: relative;
-    height: 725px;
+    height: 95%;
     width: 100%;
     border-radius: 30px;
     background-color: #f9fafc;
