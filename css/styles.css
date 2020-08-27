@@ -98,3 +98,14 @@ p {
     width: 100%;
     text-align: center;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 1028px) {
+    
+    .quiz-box {
+        min-width: 240px;
+        min-height: 340px;
+    }
+
+}
