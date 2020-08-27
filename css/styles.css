@@ -26,8 +26,10 @@ p {
     border: 0.3rem solid;
     display: inline-block;
     position: relative;
-    height: 95%;
+    height: 100%;
     width: 100%;
+    min-width: 960px;
+    min-height: 550px;
     border-radius: 30px;
     background-color: #f9fafc;
 }
