@@ -109,3 +109,19 @@ p {
     }
 
 }
+
+@media screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 1.75em;
+    }
+
+    .question-text {
+        font-size: 1.5em;
+    }
+
+    .btn {
+        font-size: 1em;
+    }
+
+}
